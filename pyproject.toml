@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "DBT-DEMO-BQ"
+version = "0.1.0"
+description = "boiler code for DBT demo"
+authors = ["lishuai <lishuai.jing@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dbt-core = "^1.8.3"
+dbt-bigquery = "^1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
