@@ -13,19 +13,20 @@
 
 WITH source_data AS (
     SELECT
-        1 AS userid,
+        4 AS userid,
         101 AS productid,
         'Male' AS usergender
     UNION ALL
     SELECT
-        2 AS userid,
+        5 AS userid,
         102 AS productid,
         'Female' AS usergender
     UNION ALL
     SELECT
-        3 AS userid,
+        6 AS userid,
         103 AS productid,
         'Male' AS usergender
+
 )
 
 SELECT *
